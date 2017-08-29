@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> CPF</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h2 class="active"> Gerador de CPF </h2>   
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    <form>
+      <input type="text" id="cpf" class="cpf" name="login" value="123.456.789-00">
+      <input type="submit" class="fadeIn fourth" value="GERAR" onclick="gerarCPF();return false;">
+      <input type="submit" class="fadeIn fourth" value="VALIDAR" onclick="validarCPF();return false;">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover"></a>
+    </div>
+
+  </div>
+</div>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery.mask.min.js"></script> 
+  <script src="js/script.js"></script> 
+
+</body>
+</html>
